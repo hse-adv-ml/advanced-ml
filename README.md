@@ -33,14 +33,3 @@
 Нумерация сквозная: `lectures/01/` — первая лекция, `practice/01/` — практика к ней. Семинары названы номером и темой, сдвоенные идут одной папкой с диапазоном: `seminars/01-02-trees-ensembles/`.
 
 Практики необязательные, баллы за них идут сверх основной шкалы — подробности в [practice/README.md](practice/README.md).
-
-## Оценивание
-
-_Заполнить по ПУД._ Формальные требования и критерии — в [syllabus.pdf](syllabus.pdf).
-
-## Окружение
-
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
