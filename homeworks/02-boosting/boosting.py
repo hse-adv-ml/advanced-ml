@@ -11,7 +11,7 @@ from tqdm.auto import tqdm
 from sklearn.base import ClassifierMixin
 
 
-class BoostingClassifier(ClassifierMixin):
+class Boosting(ClassifierMixin):
 
     def __init__(
         self,
@@ -69,7 +69,7 @@ class BoostingClassifier(ClassifierMixin):
     def _find_optimal_gamma(
         self,
         y: np.ndarray,
-        old_predictions: np.ndarray, 
+        old_predictions: np.ndarray,
         new_predictions: np.ndarray
     ) -> float:
         gammas = np.linspace(start=0, stop=1, num=100)
